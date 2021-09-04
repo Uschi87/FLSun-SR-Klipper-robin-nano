@@ -17,6 +17,8 @@ Issues or usefull links I found during the setup process for Klipper:
   * Use Kiauh to install Klipper and all required dependencies 
     https://github.com/th33xitus/kiauh
     
+   * Use KIAUH via Putty to get your MCU ID Open KIAUH Interface select 4 Advanced -> 6Get MCU ID and replace the value in line 4 (printer.cfg) with your MCU ID otherwise Klipper can not connect with the Robin Nano V3
+    
   * To install the Firmware via SDcard you need to rename the firmware to "Robin_nano_v3.bin" otherwise it will not work
     Reference: https://github.com/KevinOConnor/klipper/blob/master/config/generic-mks-robin-nano-v3.cfg
  
