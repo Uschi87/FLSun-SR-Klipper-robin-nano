@@ -1,5 +1,5 @@
-# FLSun-SR-robin-nano
-Klipper Configuration for FLSun SR with Robin Nano V3 Board
+# Klipper Config for FLSun-SR with Robin Nano v3
+
 
 This is my Klipper configuration for the FLSun SR with Robin Nano V3 Board.
 
