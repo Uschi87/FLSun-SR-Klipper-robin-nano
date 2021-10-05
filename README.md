@@ -5,9 +5,10 @@ This is my Klipper configuration for the FLSun SR with Robin Nano V3 Board.
 
 ********************************************************************************************************************************
 ********************************************************************************************************************************
-IMPORTANT: Currently I have two modifications on my printer that may lead to crashes or strange behaviour for your printer.
+IMPORTANT: Currently I have several modifications on my printer that may lead to crashes or strange behaviour for your printer.
             1. Added magnetic PEI print bed (reduce overall print high about -3mm)
             2. Replaced the original heatblock with a original full copper volcano block that is longer then the original.
+            3. Replaced the original Bowden Extruder with the Sherpa mini
 ********************************************************************************************************************************            
 ********************************************************************************************************************************           
             
