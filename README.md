@@ -29,7 +29,6 @@ Issues or usefull links I found during the setup process for Klipper:
           
     The Z Offset need to be set in the Macro PREPARE_PRINT. The Z_Offset for the probe can not be used with delta printers because Z is not only 1 axis its the combination of all 3 axis for delta printer and need to be set in a different way with macro z-offset
           
-          3. Bed Mesh Calibration (https://www.klipper3d.org/Bed_Mesh.html) *If you have some strange behaviour with your z high like the nozzle always stop a few mm above the bed and ignore your Z offset or try to go below your bed skip the Bed Mesh. Sometime it create some strange issues with delta
           
    * Use Firmware Retraction
      https://3dp.tumbleweedlabs.com/firmware/klipper-firmware/klipper-calibration-guide/retraction-calibration-with-klippers-tuning-tower-command
