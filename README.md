@@ -24,7 +24,9 @@ Issues or usefull links I found during the setup process for Klipper:
  
   * For inital Calibration use the following Steps: 
           1. Delta Calibration (https://www.klipper3d.org/Delta_Calibrate.html#basic-delta-calibration)
-          2. Calibrate Z offset Dont use the offical Guide. Set the z_Offset in the printer.cfg to 0 set the Offset manual and enter it as G_Code offset in the Macro PREPARE_PRINT
+          
+          2. Calibrate Z offset: Don't use the auto Z Offset function. Set the z_Offset in the printer.cfg to 0.  and Enter your real Offset as G_Code offset in the Macro PREPARE_PRINT. The issue is, that Z_Offset for the Probe can not be used with delta printers because Z is not only 1 axis its the combination of all 3 axis for delta printer.
+          
           3. Bed Mesh Calibration (https://www.klipper3d.org/Bed_Mesh.html) *If you have some strange behaviour with your z high like the nozzle always stop a few mm above the bed and ignore your Z offset or try to go below your bed skip the Bed Mesh. Sometime it create some strange issues with delta
           
    * Use Firmware Retraction
